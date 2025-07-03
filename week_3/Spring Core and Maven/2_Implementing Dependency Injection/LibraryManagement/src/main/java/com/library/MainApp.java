@@ -11,6 +11,6 @@ public class MainApp {
 
         BookService bookService = (BookService) context.getBean("bookService");
 
-        bookService.addBook("Clean Code by Robert C. Martin");
+        bookService.addBook("Clean Code by Durgaprasanna");
     }
 }
