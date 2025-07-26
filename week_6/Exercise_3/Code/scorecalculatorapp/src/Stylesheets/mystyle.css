@@ -1,0 +1,29 @@
+.formatstyle {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+/* Different colors for each section */
+.Name {
+  margin-top: 10px;
+  color: #007BFF; /* Blue */
+}
+
+.School {
+  margin-top: 10px;
+  color: #28A745; /* Green */
+}
+
+.Total {
+  margin-top: 10px;
+  color: #FFC107; /* Amber */
+}
+
+.Score {
+  margin-top: 10px;
+  color: #DC3545; /* Red */
+}
