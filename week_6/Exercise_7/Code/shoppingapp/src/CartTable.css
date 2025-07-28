@@ -1,0 +1,29 @@
+/* src/CartTable.css */
+.cart-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+.cart-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.cart-table tr:hover {
+  background-color: #f1f1f1;
+}
